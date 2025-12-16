@@ -10,7 +10,7 @@ export default function Nav() {
     <nav className="nav">
       <div className="nav-header">
         <Link href="/" className="brand">
-          Jyväskylän mestaruuskyykkä 2026
+          JYVÄSKYLÄN MESTARUUSKYYKKÄ–2026
         </Link>
 
         <button
@@ -30,12 +30,12 @@ export default function Nav() {
       </div>
 
       <ul className={`nav-list ${open ? "open" : ""}`}>
-          <li>Valikko</li>
+          <li>VALIKKO</li>
           <span className="line"></span>
-          <li><Link href="/aikataulu">Aikataulu</Link></li>
-          <li><Link href="/lohkojako">Lohkojako</Link></li>
-          <li><Link href="/tulokset">Tulokset</Link></li>
-          <li><Link href="/saannot">Säännöt</Link></li>
+          <li><Link href="/aikataulu">AIKATAULU</Link></li>
+          <li><Link href="/lohkojako">LOHKOJAKO</Link></li>
+          <li><Link href="/tulokset">TULOKSET</Link></li>
+          <li><Link href="/saannot">SÄÄNNÖT</Link></li>
         </ul>
     </nav>
   );

@@ -1,6 +1,6 @@
 /*
 #170312 tausta
-#33032F body
+#33032F ehkä kolmas divi väri
 div purple #531253
 div grey #A0ACAD
 optio virheeseen #97D8B2
@@ -8,7 +8,7 @@ optio virheeseen #97D8B2
 
 
 body {
-  font-family: 'FiraCode', monospace;
+  font-family: 'Sports World', sans-serif;
   background-color: #170312;
   color: white;
   margin: 0;
@@ -42,14 +42,16 @@ html, body {
 
 .parent a {
   margin: 0 auto;
-  background-color: rgb(221, 209, 209);
-  padding: 20px;
+  background-color: rgb(209, 209, 209);
+  padding: 15px;
   text-decoration: underline;
   color: rgb(68, 58, 58);
   border: 1px solid black;
   border-radius: 5px;
   font-size: smaller;
   transition: all 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .parent a:hover {
@@ -93,6 +95,8 @@ html, body {
 .div2 h2, .div3 h2, .div4 h2 {
   margin: 0;
   text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .div1 .line, .div2 .line, .div3 .line, .div4 .line,
@@ -107,12 +111,16 @@ html, body {
  .div1 .line {
     width: 470px;
  }
+
+ .div2 .line, .div3 .line {
+    width: 420px;
+ }
  
 
 .div1 a, .div2 a, .div3 a, .div4 a {
   margin-top: 10px;
   text-decoration: underline;
-  color: #444;
+  color: #0a0000;
 }
 
 .img {
@@ -152,7 +160,12 @@ html, body {
 .div2 .img, .div4 .img {
   width: 150px;
   height: auto;
-  border-radius: 200px;
+  border-radius: 100%;
+}
+
+.brand, .div1 h2 {
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .footer {
@@ -207,6 +220,8 @@ html, body {
   transform: translateY(-10px);
 
   text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
 
   transition:
     max-height 0.3s ease,
@@ -282,6 +297,13 @@ html, body {
     .desktop-menu {
         display: none;
     }
+
+    .nav-list .line {
+        text-align: left;
+        align-self: left;
+        justify-self: left;
+    }
+
     .div1 h2, .div2 h2, .div3 h2, .div4 h2 {
         font-size: medium;
     }

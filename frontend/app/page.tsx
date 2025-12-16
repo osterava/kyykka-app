@@ -12,7 +12,7 @@ export default function Home() {
         <div className="parent">
           <div className="div1">
             <div className="text">
-              <h2>Jyväskylän mestaruuskyykkä 2026!</h2>
+              <h2>JYVÄSKYLÄN MESTARUUSKYYKKÄ</h2>
               <span className="line"></span>
               <p>Milloin missä, introteksti</p>
               </div>
@@ -21,26 +21,26 @@ export default function Home() {
           <div className="div2">
             <Image src={testi} alt="aktiivi" className="img" />
             <div className="text">
-              <h2>Aikatauluun</h2>
+              <h2>KILPAILUPÄIVÄN AIKATAULU</h2>
               <span className="line"></span>
-              <a href="/aikataulu">Aikatauluun</a>
+              <a href="/aikataulu">AIKATAULU</a>
             </div>
           </div>
 
           <div className="div3">
             <Image src={testi} alt="aktiivi" className="img" />
             <div className="text">
-              <h2>Lohkojakoon</h2>
+              <h2>KILPAILUPÄIVÄN LOHKOJAKO</h2>
               <span className="line"></span>
-              <a href="/lohkojako">lohkojakoon</a>
+              <a href="/lohkojako">LOHKOJAKO</a>
             </div>
           </div>
 
           <div className="div4">
             <div className="text">
-              <h2>Tulokset</h2>
+              <h2>TULOKSET</h2>
               <span className="line"></span>
-              <a href="/tulokset">tuloksiin</a>
+              <a href="/tulokset">TULOKSET</a>
               </div>
             <Image src={testi} alt="aktiivi" className="img" />
             </div>
