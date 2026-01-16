@@ -4,12 +4,19 @@
 div purple #531253
 div grey #A0ACAD
 optio virheeseen #97D8B2
+
+#f8f9ff valkonen tausta
+#f3ea50 keltanen 
+#5f376d tumma violetti
+#d4badd vaalea violetti
+#f6ea51 "Keltainen pallo"
+#2d1026 tausta
 */
 
 
 body {
-  font-family: 'Sports World', sans-serif;
-  background-color: #170312;
+  font-family: 'Firacode', monospace;
+  background-color: #2d1026;
   color: white;
   margin: 0;
   padding: 0;
@@ -40,19 +47,6 @@ html, body {
   text-align: center;
 }
 
-.parent a {
-  margin: 0 auto;
-  background-color: rgb(209, 209, 209);
-  padding: 15px;
-  text-decoration: underline;
-  color: rgb(68, 58, 58);
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: smaller;
-  transition: all 0.3s ease;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
 
 .parent a:hover {
   background-color: rgb(134, 127, 127);
@@ -66,25 +60,20 @@ html, body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  height: 300px;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .div1 { 
-    background-color: #531253;
+    background-color: #5f376d;
     width: 100%;
-    height: 300px;
- }
+    word-wrap: normal;
+  }
 
- .div1 .text {
-    margin-left:20px;
- }
- 
-.div2 { background-color: #A0ACAD; }
+.div2 { background-color: #d4badd; }
 .div3 { 
-  background-color: #531253; 
+  background-color: #5f376d; 
   flex-direction: row; 
   align-items: center; 
   justify-content: center;
@@ -94,7 +83,6 @@ html, body {
 
 .div2 h2, .div3 h2, .div4 h2 {
   margin: 0;
-  text-align: center;
   letter-spacing: 2px;
   font-weight: bold;
 }
@@ -118,9 +106,15 @@ html, body {
  
 
 .div1 a, .div2 a, .div3 a, .div4 a {
-  margin-top: 10px;
   text-decoration: underline;
-  color: #0a0000;
+  color: inherit;
+}
+
+.h_img {
+  width: 100%;
+  height: auto;
+  margin:0;
+  padding:0
 }
 
 .img {
@@ -129,10 +123,12 @@ html, body {
   border-radius: 200px;
 }
 
-.div3 .text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.parent .text {
+  line-height: 30px;
+  font-size: medium;
+  margin-left:20px;
+  padding:5px;
+  text-shadow: #0a0000 1px 1px 2px;
 }
 
 .div2 {
@@ -140,15 +136,15 @@ html, body {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 10em;
 }
 
-.div4 {
+.div3 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 5em;
 }
 
 .div2 .text, .div4 .text {
@@ -163,6 +159,13 @@ html, body {
   border-radius: 100%;
 }
 
+.div3 .img{
+  width: 150px;
+  height: auto;
+  border-radius: 100%;
+  margin-left: 5em;
+}
+
 .brand, .div1 h2 {
     font-weight: bold;
     letter-spacing: 2px;
@@ -170,138 +173,29 @@ html, body {
 
 .footer {
   padding: 20px;
-  text-align: center;
-  background:#170312;
+  background:#2d1026;
   color: white;
-  width: 100%;          
-  margin: 0px auto 0;
-  box-sizing: border-box;
-}
-
-.nav {
-  background: #170312;
-  padding:10px 10px 10px 0;
-  width: 100%;
-}
-
-.nav-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-decoration: none;
+  gap: 20px;
+  justify-content: center;
 }
 
-.nav-header a , .desktop-menu {
-    color: white;
-    text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-}
-
-.desktop-menu {
-    background-color: #A0ACAD20;
-    border-radius: 0;
-}
-
-.nav-header a:hover, .desktop-menu:hover {
-  background-color: rgb(57, 56, 56);
-  cursor: pointer;
-}
-
-.nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transform: translateY(-10px);
-
-  text-align: center;
-  letter-spacing: 2px;
-  font-weight: bold;
-
-  transition:
-    max-height 0.3s ease,
-    opacity 0.25s ease,
-    transform 0.25s ease;
-}
-
-.nav-list .line {
-    text-align: center;
-    align-items: center;
-    justify-self: center;
-    align-self: center;
-    width: 120px;
-    position: relative;
-    margin-left: 10px;
-    opacity: 0.2;
-}
-
-.nav-list.open {
-  max-height: 500px;
-  opacity: 1;
-  transform: translateY(0);
-  background-color: #A0ACAD20;
+.nav, .nav-header {
+  background: #2d1026;
   width: 100%;
 }
 
-.nav-list li {
-  color: #ffffff; 
-  padding: 0.75rem 0;
-  margin-left:0.75rem;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-.nav-list a:hover {
-  text-decoration: underline;
-}
-
-.burger {
-  font-size: 2rem;
-  border: none;
-  cursor: pointer;
-  background-color: #A0ACAD;
-  display: none;
-}
-
-.h_img {
-    width: 100%;
-    height: auto;
+.nav-header section{
+  padding: 2em;
 }
 
 @media (max-width:768px) {
-    .burger {
-        display: block;
-    }
-
-    .nav-list.open{
-        background-color: #A0ACAD;
-    }
-
-    .nav-list {
-        text-align: left;
-    }
-
     .brand {
         font-size: smaller;
     }
 
     .desktop-menu {
         display: none;
-    }
-
-    .nav-list .line {
-        text-align: left;
-        align-self: left;
-        justify-self: left;
     }
 
     .div1 h2, .div2 h2, .div3 h2, .div4 h2 {
