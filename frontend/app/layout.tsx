@@ -6,7 +6,7 @@ import Nav from "./components/nav";
 
 export const metadata: Metadata = {
   title: "Jyväskylän mestaruuskyykkä",
-  description: "Mestarin tuotos",
+  description: "Jyväskylän mestaruuskyykkä tapahtumasivu",
 };
 
 export default function RootLayout({
