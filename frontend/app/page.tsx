@@ -66,7 +66,7 @@ export default function Home() {
             <p>Tapahtumassa noudatetaan JYY:n <a href="https://jyy.fi/wp-content/uploads/2022/04/JYYn-turvallisemman-tilan-periaatteet.pdf">turvallisemman tilan periaatteita.</a> Toivomme, että kaikki osallistujat kunnioittavat toisiaan ja luovat yhdessä mukavan ja turvallisen ilmapiirin kaikille. Mikäli havaitset asiatonta käytöstä, voit ottaa yhteytettä tapahtuman yhdenvertaisuusvastaavaan <i>Henna-Riina Katajamäkeen</i> tai <i>Reetta Manniseen</i>.
             </p>
             <h3>Muuta kysyttävää?</h3>
-            Projektitiimimme vastaa mielellään kaikkiin kysymyksiin liittyen JM-kyykkään. Voit ottaa meihin yhteyttä sähköpostitse osoitteessa <a href="mailto:projekti@jm-kyykka.fi">projekti@jm-kyykka.fi</a>
+            Projektitiimimme vastaa mielellään kaikkiin kysymyksiin liittyen JM-kyykkään. Voit ottaa meihin yhteyttä sähköpostitse osoitteessa <a href="mailto:projektitiimi@jm-kyykka.fi">projektitiimi@jm-kyykka.fi</a>
             </div>
 
           </div>
