@@ -113,6 +113,7 @@ html, body {
 .h_img {
   width: 100%;
   height: auto;
+  display: block;
   margin:0;
   padding:0
 }
@@ -147,6 +148,16 @@ html, body {
   gap: 5em;
 }
 
+.div4 {
+  background-color:#f8f9ff;
+  color: black;
+}
+
+.div4 .line {
+  background-color: black;
+  width: 300px;
+}
+
 .div2 .text, .div4 .text {
   display: flex;
   flex-direction: column;
@@ -157,6 +168,10 @@ html, body {
   width: 150px;
   height: auto;
   border-radius: 100%;
+}
+
+.div3 .line {
+  width: 255px;
 }
 
 .div3 .img{
@@ -189,34 +204,57 @@ html, body {
   padding: 2em;
 }
 
+.div4 .sponsors {
+  display: flex;
+  align-items: center;
+}
+
+.div4 .sponsors a {
+  background-color:#f8f9ff;
+}
+
+.div4 .sponsor-wrapper {
+  display: inline-block;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.div4 .sponsor-wrapper:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width:768px) {
-    .brand {
-        font-size: smaller;
-    }
+  
+  .div1 .text, .div2 .text, .div3 .text, .div4 .text {
+    font-size: small;
+    line-height: 24px;
+    padding: 5px;
+  }
 
-    .desktop-menu {
-        display: none;
-    }
+  .div2, .div3 {
+    flex-direction: column;
+    gap: 2em;
+  }
 
-    .div1 h2, .div2 h2, .div3 h2, .div4 h2 {
-        font-size: medium;
-    }
+  .div1 .line, .div2 .line , .div3 .line, .div4 .line {
+    width: 80%;
+  }
 
-    .div1 a, .div2 a, .div3 a, .div4 a {
-        font-size: 0.7rem;
-    }
+  .div3 .img {  
+    margin-left: 0;
+  }
+  
+  .footer {
+    font-size: small;
+    padding-left:0;
+    padding-right:0;
+  }
 
-    .div1 .text p {
-        font-size: 0.7rem;
-    }
-
-    .div1 .line {
-        width: 95%;
-    }
-
-    .div2 .line, .div3 .line, .div4 .line {
-        width: 80%;
-    }
+  .div4 .sponsors {
+    flex-direction: column;
+    gap: 20px;
+  }
 
 
 }
