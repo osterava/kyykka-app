@@ -20,11 +20,12 @@ export default function Home() {
 
         <div className="parent">
           <div className="div1">
+            <Image src={yellow} alt="Yellow_Ball" className="img" />
             <div className="text">
               <h2>JYVÄSKYLÄN MESTARUUSKYYKKÄ</h2>
               <span className="line"></span>
-              <p>Jyväskylän mestaruus kyykkäkilpailut, eli tuttavallisemmin JM-kyykkä, pelataan lauantaina 24.1.2026 kampuksen kentällä Jyväskylässä. </p>
-
+              <p>Jyväskylän mestaruus kyykkäkilpailut, eli tuttavallisemmin JM-kyykkä, pelataan lauantaina 24.1.2026 kampuksen kentällä Jyväskylässä. 
+              </p>
               <p>Tapahtuman järjestävät Algo ja Ynnä, ja luvassa on rento, mutta sopivan kilpailullinen turnauspäivä. Jokaiselle joukkueelle kertyy vähintään kolme peliä, joten kentällä pääsee oikeasti pelaamaan eikä vain odottelemaan. Päivän aikana on tarjolla lämmintä syötävää ja juotavaa sekä pientä oheisohjelmaa pitämässä tunnelmaa korkealla.</p>
               <p>
               Turnauksen voittajajoukkue nappaa neljän hengen joukkuelipun Akateemisen kyykän MM-kisoihin Tampereelle <i>(arvo 70 euroa).</i> Lisäksi voittajilla on mahdollisuus ostaa bussipaikat Jyväskylästä Tampereelle lähtevään yhteisbussiin.</p>

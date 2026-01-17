@@ -54,7 +54,7 @@ html, body {
   cursor: pointer;
 }
 
-.div2, .div3, .div4 {
+.div1, .div2, .div3, .div4 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,8 +67,9 @@ html, body {
 
 .div1 { 
     background-color: #5f376d;
-    width: 100%;
     word-wrap: normal;
+    flex-direction: row;
+    gap: 20px;
   }
 
 .div2 { background-color: #d4badd; }
@@ -121,7 +122,6 @@ html, body {
 .img {
   width: 150px;
   height: auto;
-  border-radius: 200px;
 }
 
 .parent .text {
@@ -164,7 +164,7 @@ html, body {
   align-items: center;
 }
 
-.div2 .img, .div4 .img {
+.div1 .img,.div2 .img, .div4 .img {
   width: 150px;
   height: auto;
   border-radius: 100%;
@@ -175,9 +175,6 @@ html, body {
 }
 
 .div3 .img{
-  width: 150px;
-  height: auto;
-  border-radius: 100%;
   margin-left: 5em;
 }
 
@@ -224,6 +221,25 @@ html, body {
   transform: scale(1.1);
 }
 
+@media (min-width:768px) and (max-width:1024px) {
+
+  .div1 .img {
+    display: none;
+  }
+
+  .div2 {
+    gap: 0.6em;
+  }
+
+  .div3 {
+    flex-direction: column-reverse;
+  }
+
+  .div3 .img {
+    margin-left: 0;
+}
+}
+
 @media (max-width:768px) {
   
   .div1 .text, .div2 .text, .div3 .text, .div4 .text {
@@ -232,17 +248,31 @@ html, body {
     padding: 5px;
   }
 
+  .div1 .img {
+    display: none;
+  }
+
   .div2, .div3 {
     flex-direction: column;
     gap: 2em;
   }
 
+
+
   .div1 .line, .div2 .line , .div3 .line, .div4 .line {
     width: 80%;
   }
 
+  .div2 .line {
+    width: 100%;
+  }
+
   .div3 .img {  
     margin-left: 0;
+  }
+
+  .nav-header section {
+    padding: 1em;
   }
   
   .footer {
