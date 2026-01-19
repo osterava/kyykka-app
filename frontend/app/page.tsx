@@ -4,7 +4,7 @@ import r from './images/start.jpg'
 import mobileImage from './images/mobiili.jpg'
 import StartImage from "./common/startImage"
 import Tek from './images/TEK.png'
-import Celcius from './images/celsius.jpg'
+import Celcius from './images/celsius.png'
 
 export default function Home() {
   return (
