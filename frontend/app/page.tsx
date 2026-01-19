@@ -28,7 +28,7 @@ export default function Home() {
               </p>
               <p>Tapahtuman järjestävät Algo ja Ynnä, ja luvassa on rento, mutta sopivan kilpailullinen turnauspäivä. Jokaiselle joukkueelle kertyy vähintään kolme peliä, joten kentällä pääsee oikeasti pelaamaan eikä vain odottelemaan. Päivän aikana on tarjolla lämmintä syötävää ja juotavaa sekä pientä oheisohjelmaa pitämässä tunnelmaa korkealla.</p>
               <p>
-              Turnauksen voittajajoukkue nappaa neljän hengen joukkuelipun Akateemisen kyykän MM-kisoihin Tampereelle <i>(arvo 70 euroa).</i> Lisäksi voittajilla on mahdollisuus ostaa bussipaikat Jyväskylästä Tampereelle lähtevään yhteisbussiin.</p>
+              Turnauksen voittajajoukkue nappaa neljän hengen joukkuelipun Akateemisen kyykän MM-kisoihin Tampereelle <i>(arvo 69 euroa).</i> Lisäksi voittajilla on mahdollisuus ostaa bussipaikat Jyväskylästä Tampereelle lähtevään yhteisbussiin.</p>
               <p>
               Kerää porukka, pue haalarit päälle ja tule mukaan ottamaan mittaa Jyväskylän kovimmista kyykkäjoukkueista.</p>
               </div>
