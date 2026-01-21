@@ -5,6 +5,7 @@ import mobileImage from './images/mobiili.jpg'
 import StartImage from "./common/startImage"
 import Tek from './images/TEK.png'
 import Celcius from './images/celsius.png'
+import Semma from './images/semma.png'
 
 export default function Home() {
   return (
@@ -98,6 +99,19 @@ export default function Home() {
             <Image
               src={Celcius}
               alt="Celsius"
+              className="sponsor"
+              width={300}
+              priority
+            />
+            </a>
+            <a
+            href="https://www.semma.fi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="sponsor-wrapper">
+            <Image
+              src={Semma}
+              alt="Semma"
               className="sponsor"
               width={300}
               priority
