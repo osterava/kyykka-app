@@ -6,6 +6,7 @@ import StartImage from "./common/startImage"
 import Tek from './images/TEK.png'
 import Celcius from './images/celsius.png'
 import Semma from './images/semma.png'
+import rent from './images/24rent.png'
 
 export default function Home() {
   return (
@@ -86,7 +87,7 @@ export default function Home() {
               src={Tek}
               alt="TEK"
               className="sponsor"
-              width={300}
+              width={290}
               priority
             />
             </a>
@@ -100,7 +101,7 @@ export default function Home() {
               src={Celcius}
               alt="Celsius"
               className="sponsor"
-              width={300}
+              width={290}
               priority
             />
             </a>
@@ -113,7 +114,20 @@ export default function Home() {
               src={Semma}
               alt="Semma"
               className="sponsor"
-              width={300}
+              width={290}
+              priority
+            />
+            </a>
+            <a
+            href="https://www.24rent.fi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="sponsor-wrapper">
+            <Image
+              src={rent}
+              alt="24Rent"
+              className="sponsor"
+              width={290}
               priority
             />
             </a>
